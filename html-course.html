@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Course | Learn Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Learn &lt;/&gt; Code</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#playground">Practice</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="course-hero">
+            <p>LEARN CODE / HTML</p>
+            <h2>Learn HTML</h2>
+            <p>
+                Learn how to build the structure of websites,
+                one lesson at a time.
+            </p>
+        </section>
+
+        <section id="lessons" class="course-content">
+            <h2>Course Lessons</h2>
+
+            <article class="lesson-card">
+                <h3>01. Introduction to HTML</h3>
+                <p>Understand what HTML is and how websites use it.</p>
+                <a href="#lesson1">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>02. Headings and Paragraphs</h3>
+                <p>Learn how to organize text on a webpage.</p>
+                <a href="#lesson2">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>03. Links and Images</h3>
+                <p>Learn how to connect pages and display images.</p>
+                <a href="#lesson3">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>04. Unordered and Ordered Lists</h3>
+                <p>Learn to organize information using ordered and unordered lists.</p>
+                <a href="#lesson4">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>05. Tables</h3>
+                <p>Learn to organize information into rows and columns.</p>
+                <a href="#lesson5">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>06. Forms</h3>
+                <p>Learn how to collect information from users.</p>
+                <a href="#lesson6">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>07. Semantic</h3>
+                <p>Learn to structure webpages using meaningful HTML elements.</p>
+                <a href="#lesson7">Start Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <h3>08. Comments and Code Organization</h3>
+                <p>Learn to write comments and keep your HTML readable.</p>
+                <a href="#lesson8">Start Lesson</a>
+            </article>
+        </section>
+
+        <section id="lesson1" class="lesson-content">
+            <h2>Lesson 1: Introduction to HTML</h2>
+
+            <p>
+                HTML stands for HyperText Markup Language.
+                It defines the structure and content of a webpage.
+            </p>
+
+            <h3>Your first HTML element</h3>
+
+            <pre><code>&lt;h1&gt;Hello, world!&lt;/h1&gt;</code></pre>
+
+            <p>
+                The h1 element creates a main heading on your webpage.
+            </p>
+
+            <a href="#lesson2">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson2" class="lesson-content">
+            <h2>Lesson 2: Headings and Paragraphs</h2>
+
+            <p>
+                HTML has six heading levels, from h1 to h6.
+                Use the paragraph element to display regular text.
+            </p>
+
+            <pre><code>&lt;h1&gt;My Website&lt;/h1&gt;
+&lt;h2&gt;About Me&lt;/h2&gt;
+&lt;p&gt;I am learning HTML.&lt;/p&gt;</code></pre>
+
+            <a href="#lesson3">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson3" class="lesson-content">
+            <h2>Lesson 3: Links and Images</h2>
+
+            <p>Use the a element to create a link.</p>
+
+            <pre><code>&lt;a href="https://example.com"&gt;
+Visit Example
+&lt;/a&gt;</code></pre>
+
+            <p>Use the img element to display an image.</p>
+
+            <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+
+            <a href="#lesson4">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson4" class="lesson-content">
+            <h2>Lesson 4: HTML Lists</h2>
+
+            <p>HTML lists organize related information into groups.</p>
+
+            <h3>Unordered List</h3>
+            <p>Use <code>&lt;ul&gt;</code> for bulleted lists.</p>
+            <pre><code>&lt;ul&gt;
+        &lt;li&gt;HTML&lt;/li&gt;
+        &lt;li&gt;CSS&lt;/li&gt;
+        &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+            <h3>Ordered List</h3>
+            <p>Use <code>&lt;ol&gt; for a numbered lists.</code></p>
+
+            <pre><code>&lt;ol&gt;
+    &lt;li&gt;Open your editor&lt;/li&gt;
+    &lt;li&gt;Write your code&lt;/li&gt;
+    &lt;li&gt;Preview your webpage&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+            <a href="#lesson5">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson5" class="lesson-content">
+            <h2>Lesson 5: HTML Tables</h2>
+            <p>HTML Tables display information in rows and columns.
+            They are useful for schedules, lists of data, and comparisons.</p>
+
+            <h3>Basic Table Structure</h3>
+            <p>The <code>&lt;table&gt;</code> element creates a table.
+        The <code>&lt;tr&gt;</code> element creates a row,
+        <code>&lt;th&gt;</code> creates a heading cell,
+        and <code>&lt;td&gt;</code> creates a regular cell.
+            </p>
+
+            <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Game&lt;/th&gt;
+        &lt;th&gt;Genre&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Roblox&lt;/td&gt;
+        &lt;td&gt;Sandbox&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Valorant&lt;/td&gt;
+        &lt;td&gt;Shooter&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+            </code></pre>
+            <a href="#lesson6">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson6" class="lesson-content">
+            <h2>Lesson 6: HTML Forms</h2>
+            <p>HTML forms allows users to enter and sumbit information.
+                You can use them for contact forms, registration pages,
+                and other interactive features.
+            </p>
+
+            <h3>Basic Form Elements</h3>
+
+            <p>
+                The <code>&lt;form&gt;</code> element holds the form.
+        The <code>&lt;label&gt;</code> describes an input,
+        and <code>&lt;input&gt;</code> lets users enter data.
+        The <code>&lt;button&gt;</code> creates a clickable button.
+            </p>
+
+            <pre><code>&lt;form&gt;
+    &lt;label for="name"&gt;Your Name:&lt;/label&gt;
+    &lt;input type="text" id="name" placeholder="Name"&gt;
+
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+            
+            <a href="#lesson7">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson7" class="lesson-content">
+            <h2>Lesson 7: Semantic HTML</h2>
+            <p>
+                Semantic HTML uses elements that describe the purpose
+                of different parts of a webpage.
+            </p>
+
+            <h3>Common Semantic Elements</h3>
+            <ul>
+                <li><code>&lt;header&gt;</code> — The top section of a page.</li>
+                <li><code>&lt;nav&gt;</code> — Contains navigation links.</li>
+                <li><code>&lt;main&gt;</code> — Contains the main content.</li>
+                <li><code>&lt;section&gt;</code> — Groups related content.</li>
+                <li><code>&lt;article&gt;</code> — Holds self-contained content.</li>
+                <li><code>&lt;footer&gt;</code> — Contains footer information.</li>
+            </ul>
+
+            <h3>Example</h3>
+
+            <pre><code>&lt;header&gt;
+    &lt;h1&gt;My Website&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+    &lt;a href="#About"&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+
+&lt;main&gt;
+    &lt;section id="About"&gt;
+        &lt;h2&gt;About Me&lt;/h2&gt;
+        &lt;p&gt;I am learning HTML!&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;My Website&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+            <a href="#lesson8">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson8" class="lesson-content">
+    <h2>Lesson 8: Comments and Code Organization</h2>
+
+    <p>
+        Clean and organized code is easier to read, understand,
+        and update. HTML comments let you leave notes in your code.
+    </p>
+
+    <h3>HTML Comments</h3>
+
+    <p>
+        Comments are notes that the browser does not display
+        as normal webpage content.
+    </p>
+
+    <pre><code>&lt;!-- This is an HTML comment --&gt;
+
+&lt;h1&gt;Welcome to My Website&lt;/h1&gt;</code></pre>
+
+    <h3>Organizing Your Code</h3>
+
+    <p>Use indentation and spacing to make your code easier to read.</p>
+
+    <pre><code>&lt;section&gt;
+    &lt;h2&gt;About Me&lt;/h2&gt;
+    &lt;p&gt;I am learning web development.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+
+    <h3>Good Coding Habits</h3>
+
+    <ul>
+        <li>Indent nested elements consistently.</li>
+        <li>Use meaningful names for IDs and classes.</li>
+        <li>Keep related elements together.</li>
+        <li>Use comments to explain important sections.</li>
+        <li>Close elements properly when required.</li>
+    </ul>
+
+    <a href="#playground">Go Practice &rarr;</a><br>
+    <a href="css-course.html">CSS Lesson &rarr;</a>
+</section>
+
+        
+        <section id="playground" class="lesson-content">
+            <h2>HTML Playground</h2>
+            <p>Write your HTML code and see the result below.</p>
+
+            <label for="htmlCode">Your HTML code</label>
+
+            <textarea id="htmlCode" rows="10"><h1>Hello, world!</h1>
+<p>I'm learning HTML on Learn Code.</p></textarea>
+
+            <button id="runCode">Run Code</button>
+            <button id="resetCode">Reset Code</button>
+
+            <h3>Live Preview</h3>
+
+            <iframe
+                id="preview"
+                title="HTML code preview"
+                sandbox
+            ></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Learn Code. All rights reserved.</p>
+        <a href="index.html">Back to Home</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
