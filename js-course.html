@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Course | Learn Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Learn &lt;/&gt; Code</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#playground">Practice</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="course-hero">
+            <p>LEARN CODE / JAVASCRIPT</p>
+            <h2>Learn JavaScript</h2>
+            <p>
+                Learn how to make websites interactive with
+                JavaScript, from the basics to real projects.
+            </p>
+        </section>
+
+        <section id="lessons" class="course-content">
+            <h2>JavaScript Course Lessons</h2>
+
+        </section>
+
+        <!-- CARDS -->
+
+        <article class="lesson-card">
+            <h3>Lesson 1: Introduction of JavaScript</h3>
+            <p>Learn what JavaScript does and how to use it.</p>
+            <a href="#lesson1">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 2: Variables and Data Types</h3>
+            <p>Store information using variables.</p>
+            <a href="#lesson2">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 3: Operators</h3>
+            <p>Perform calculations and compare values</p>
+            <a href="#lesson3">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 4: Conditions</h3>
+            <p>Make decisions using if and else.</p>
+            <a href="#lesson4">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 5: Loops</h3>
+            <p>Repeat an instruction using loops.</p>
+            <a href="#lesson5">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 6: Functions</h3>
+            <p>Create a reusable blocks of codes</p>
+            <a href="#lesson6">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 7: DOM Manipulation</h3>
+            <p>Change webpage content with JavaScript.</p>
+            <a href="#lesson7">Start Lesson</a>
+        </article>
+
+        <article class="lesson-card">
+            <h3>Lesson 8: Events</h3>
+            <p>Respond to clicks and build an interactive webpage.</p>
+            <a href="#lesson8">Start Lesson</a>
+        </article>
+
+        <!-- LESSONS  -->
+
+        <section id="lesson1" class="lesson-content">
+            <h2>Lesson 1: Introduction to JavaScript</h2>
+            <p>JavaScript makes websites interactive. It can respond to clicks, update content, and more.</p>
+
+            <h3>Example</h3>
+            <pre><code>console.log("Hello World!");</code></pre>
+            <a href="#lesson2">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson2" class="lesson-content">
+            <h2>Lesson 2: Variables and Data Types</h2>
+            <p>Variables store information. Use <code>let</code> for values that can change and <code>const</code> for values you don't plan to reassign.</p>
+
+            <h3>Example</h3>
+
+            <pre><code>let name= "Alex";
+const age = 16;
+console.log(name);
+console.log(age);</code></pre>
+            <a href="#lesson3">Next Lesson &rarr;</a>
+        </section>
+
+        
+        <section id="lesson3" class="lesson-content">
+            <h2>Lesson 3: Operators</h2>
+            <p>Operators perform calculations and compare values.</p>
+
+            <h3>Example</h3>
+            <pre><code>let a = 10;
+let b = 5;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);</code></pre>
+            <a href="#lesson4">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson4" class="lesson-content">
+            <h2>Lesson 4: Conditions</h2>
+            <p>Conditions let your program make decisions using <code>if</code> and <code>else</code></p>
+
+            <h3>Example</h3>
+            <pre><code>let score = 85;
+if (score >= 75) {
+    console.log("Passed!");
+} else {
+    console.log("Failed!");
+}</code></pre>
+            <a href="#lesson5">Next Lesson &rarr;</a> 
+        </section>
+
+        <section id="lesson5" class="lesson-content">
+            <h2>Lesson 5: Loops</h2>
+            <p>Loops repeat the instruction multiple times.</p>
+
+            <h3>Example</h3>
+            <pre><code>for (let i = 1; i <= 5; i++) {
+console.log(i);
+}</code></pre>
+            <a href="#lesson6">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson6" class="lesson-content">
+            <h2>Lesson 6: Functions</h2>
+            <p>Functions let you reuse the code whenever you need it.</p>
+
+            <h3>Example</h3>
+            <pre><code>function greet(name) {
+console.log("Hello, " + name + "!")
+}
+
+greet("Alex");</code></pre>
+            <a href="#lesson7">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson7" class="lesson-content">
+            <h2>Lesson 7: DOM Manipulation</h2>
+            <p>The DOM lets JavaScript access and change the webpage elements.</p>
+
+            <h3>Example</h3>
+            <pre><code>document.getElementById("message").textContent = "Welcome to Learn Code!";</code></pre>
+            <a href="#lesson8">Next Lesson &rarr;</a>
+        </section>
+
+        <section id="lesson8" class="lesson-content">
+            <h2>Lesson 8: Events</h2>
+            <p>Events let your website respond to actions such as button clicks.</p>
+
+            <h3>Example</h3>
+            <pre><code>const button = document.getElementById("myButton");
+
+button.addEventListener("click", function() {
+    document.getElementById("message").textContent = "You clicked the button!";
+});</code></pre>
+            <a href="#playground">Go Practice &rarr;</a>
+        </section>
+
+
+        
+        <section id="playground" class="lesson-content">
+            <h2>Code Playground</h2>
+            <p>Practice writing HTML, CSS, and other more.</p>
+
+            <div class="code-playground">
+                <div class="editor-tabs">
+                    <button class="editor-tab active" data-file="html">🌐 index.html</button>
+                    <button class="editor-tab" data-file="css"># style.css</button>
+                    <button class="editor-tab" data-file="js">JS script.js</button>
+                </div>
+
+                <textarea
+                    id="codeEditor"
+                    spellcheck="false"
+                    aria-label="Code editor"
+                ></textarea>
+
+                <div class="playground-toolbar">
+                    <button id="runProject">▶ Run Code</button>
+                    <button id="resetProject">Reset Code</button>
+                </div>
+            </div>
+
+            <h3>Live Preview</h3>
+
+            <iframe
+                id="projectPreview"
+                title="Website preview"
+                sandbox="allow-scripts">
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Learn Code. All rights reserved.</p>
+        <a href="index.html">Back to Home</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
