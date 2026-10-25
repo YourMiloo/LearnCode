@@ -296,26 +296,34 @@ Visit Example
 </section>
 
         
-        <section id="playground" class="lesson-content">
-            <h2>HTML Playground</h2>
-            <p>Write your HTML code and see the result below.</p>
+        
+<section id="playground" class="lesson-content">
+    <h2>Code Playground</h2>
+    <p>Practice writing HTML, CSS, and other more.</p>
 
-            <label for="htmlCode">Your HTML code</label>
+    <div class="code-playground">
+        <div class="editor-tabs">
+            <button class="editor-tab active" data-file="html">🌐 index.html</button>
+            <button class="editor-tab" data-file="css"># style.css</button>
+            <button class="editor-tab" data-file="js">JS script.js</button>
+        </div>
 
-            <textarea id="htmlCode" rows="10"><h1>Hello, world!</h1>
-<p>I'm learning HTML on Learn Code.</p></textarea>
+        <textarea id="codeEditor" spellcheck="false" aria-label="Code editor"></textarea>
 
-            <button id="runCode">Run Code</button>
-            <button id="resetCode">Reset Code</button>
+        <div class="playground-toolbar">
+            <button id="runProject">▶ Run Code</button>
+            <button id="resetProject">Reset Code</button>
+        </div>
+    </div>
 
-            <h3>Live Preview</h3>
+    <h3>Live Preview</h3>
+    <iframe
+        id="projectPreview"
+        title="Website preview"
+        sandbox="allow-scripts"
+    ></iframe>
+</section>
 
-            <iframe
-                id="preview"
-                title="HTML code preview"
-                sandbox
-            ></iframe>
-        </section>
 
     </main>
 
