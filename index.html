@@ -51,21 +51,102 @@
             </article>
 
             <article>
-                <h3>LUAU</h3>
-                <p>Learn how to script and make a game in Roblox.</p>
-                <a href="luau-course.html">Start Learning</a>
+                <h3>Python</h3>
+                <p>Learn how to program to build your own projects.</p>
+                <a href="python-course.html">Start Learning</a>
             </article>
         </section>
 
-        <section id="playground">
+        <section id="playground" class="lesson-content">
             <h2>Code Playground</h2>
             <p>Practice writing HTML, CSS, and other more.</p>
+
+            <div class="code-playground">
+                <div class="editor-tabs">
+                    <button class="editor-tab active" data-file="html">🌐 index.html</button>
+                    <button class="editor-tab" data-file="css"># style.css</button>
+                    <button class="editor-tab" data-file="js">JS script.js</button>
+                </div>
+
+                <textarea id="codeEditor" spellcheck="false" aria-label="Code editor"></textarea>
+
+                <div class="playground-toolbar">
+                    <button id="runProject">▶ Run Code</button>
+                    <button id="resetProject">Reset Code</button>
+                </div>
+            </div>
+
+            <h3>Live Preview</h3>
+            <iframe
+                id="projectPreview"
+                title="Website preview"
+                sandbox="allow-scripts">
+            </iframe>
         </section>
 
-        <section id="community">
-            <h2>Join the Community</h2>
-            <p>Learn together and help other programmers.</p>
+        
+        <section class="quiz-promo">
+            <p class="section-label">PRACTICE YOUR SKILLS</p>
+            <h2>Ready to Test Your Knowledge?</h2>
+            <p>
+                Take coding quizzes in HTML, CSS, JavaScript, and Python
+                to see what you've learned.
+            </p>
+
+            <a href="quizzes.html" class="quiz-link">
+                Take a Quiz →
+            </a>
         </section>
+
+
+        
+        <section id="community">
+            <h2>Connect With Me</h2>
+            <p>Follow my socials and join the Learn Code community!</p>
+
+            
+            <div class="social-links">
+
+                <a href="https://www.tiktok.com/@itz_4drhian.xs"
+                class="social-card tiktok"
+                target="_blank" rel="noopener noreferrer">
+
+                    <span class="social-icon">♪</span>
+                    <span class="social-info">
+                        <strong>TikTok</strong>
+                        <small>@itz_4drhian.xs</small>
+                    </span>
+                    <span class="social-arrow">↗</span>
+                </a>
+
+                <a href="https://www.instagram.com/itz_4drhiann.xz/"
+                class="social-card instagram"
+                target="_blank" rel="noopener noreferrer">
+
+                    <span class="social-icon">◎</span>
+                    <span class="social-info">
+                        <strong>Instagram</strong>
+                        <small>@itz_4drhiann.xz</small>
+                    </span>
+                    <span class="social-arrow">↗</span>
+                </a>
+
+                <a href="https://discord.gg/fRQsMn2ubv"
+                class="social-card discord"
+                target="_blank" rel="noopener noreferrer">
+
+                    <span class="social-icon">♧</span>
+                    <span class="social-info">
+                        <strong>Discord</strong>
+                        <small>Join the community</small>
+                    </span>
+                    <span class="social-arrow">↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
